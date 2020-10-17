@@ -58,7 +58,7 @@ select:focus, button:focus, input:focus{
     transition: transform 0.3s ease-in;
 }
 
-.settings.hid{
+.settings.hide{
     transform: translateY(-100%);
 }
 
@@ -81,7 +81,6 @@ h2{
 
 h1{
     margin:10px 0;
-
 }
 
 input{
@@ -113,5 +112,7 @@ input{
     position: absolute;
     width: 100%;
     height: 100%;
+    top: 0;
+    left: 0;
     z-index: 1;
 }
